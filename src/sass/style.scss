@@ -1,4 +1,14 @@
 @import "base/variables";
+@import "base/animations";
+* {
+	font-family: "Museo Sans Cyrl", sans-serif;
+}
+// font-family: 'MuseoModerno', cursive;
+.container {
+	padding: 0 10px;
+	max-width: 970px;
+	margin: 0 auto;
+}
 @import "blocks/promo";
 @import "blocks/header";
 @import "blocks/buttons";
@@ -9,12 +19,7 @@
 @import "blocks/forms";
 @import "blocks/carousel";
 @import "blocks/catalog";
-* {
-	font-family: "Museo Sans Cyrl", sans-serif;
-}
-// font-family: 'MuseoModerno', cursive;
-.container {
-	padding: 0 10px;
-	max-width: 970px;
-	margin: 0 auto;
-}
+@import "blocks/comments";
+@import "blocks/footer";
+@import "blocks/modal";
+@import "blocks/pageup";

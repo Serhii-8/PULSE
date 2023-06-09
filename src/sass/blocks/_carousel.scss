@@ -16,8 +16,8 @@
 		border: none;
 		background-color: #fff;
 		img {
-			width: 31px;
-			height: 50px;
+			max-width: 31px;
+			max-height: 50px;
 		}
 	}
 	.slick-next {
@@ -28,8 +28,8 @@
 		border: none;
 		background-color: #fff;
 		img {
-			width: 31px;
-			height: 50px;
+			max-width: 31px;
+			max-height: 50px;
 		}
 	}
 }
