@@ -35,6 +35,39 @@
 			margin-top: 30px !important;
 		}
 	}
+	.button {
+		&:hover {
+			background-color: $main-color;
+			color: #ffffff;
+			border: none;
+		}
+	}
+	.footer {
+		&__phone {
+			&:hover {
+				color: #ffffff !important;
+				text-decoration: none !important;
+			}
+		}
+		&__social-item {
+			&:hover {
+				border: 2px solid #ffffff !important;
+			}
+			span {
+				&:hover {
+					color: #fff !important;
+				}
+			}
+		}
+	}
+	.catalog {
+		&__tab {
+			&:hover {
+				box-shadow: none !important;
+				border: 2px solid #d0d0d0 !important;
+			}
+		}
+	}
 }
 
 @media (max-width: 650px) {
