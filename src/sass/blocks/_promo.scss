@@ -50,7 +50,22 @@
 		a {
 			color: #ffffff;
 			text-transform: uppercase;
-			text-decoration: underline;
+			text-decoration: none;
+			position: relative;
+			&::after {
+				content: "";
+				display: block;
+				height: 1.5px;
+				width: 0;
+				background-color: #fff;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				transition: width 0.4s ease;
+			}
+			&:hover::after {
+				width: 100%;
+			}
 		}
 	}
 }
